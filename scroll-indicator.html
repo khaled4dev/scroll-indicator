@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    header{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+    .header-proper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header-proper .header-logo{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 300;
+    }
+    .scroll-line{
+        height: 5px;
+        margin-bottom: -2px;
+        background: #000;
+        width: 0%;
+    }
+    .content{
+        padding: 100px 0px;
+        margin: 0 auto;
+        width: 80%;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;
+        font-weight: 300;
+        color: gray;
+        line-height: 40px;
+    }
+    </style>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+    $(window).scroll(function(){
+
+        var wintop = $(window).scrollTop(), 
+        docheight= $(document).height(),
+        winheight = $(window).height();
+        var scrolled = (wintop / (docheight-winheight))*100;
+        $('.scroll-line').css('width',(scrolled + '%'));
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-porper">
+            <h1 class="header-logo">
+                Scrollindicatores
+            </h1>
+            </div>
+            <div class="scroll-line"></div>
+    </header>
+    <div class="main">
+        <div class="content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit tempora a perferendis, quia eius excepturi laborum consequuntur nulla praesentium?</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
